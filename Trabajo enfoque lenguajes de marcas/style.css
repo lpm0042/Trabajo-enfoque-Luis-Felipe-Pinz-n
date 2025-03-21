@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(222, 199, 147);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/**cambia el color de la letra de todas las secciones**/
+section {
+    color: rgba(44, 61, 15, 0.877);
+}
+
+/**cambiamos el pie de la pagina "display:block" es un bloque "position:fixed"hace que quede fijado**/
+footer nav {
+    bottom: 12px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    font-size: medium;
+    display: block;
+}
+
+
+.menuFooter {
+    text-align: center;
+    color: rgb(14, 17, 13);
+    text-decoration: none;
+
+}
+
+.instagram {
+    width: 30px;
+}
+
+.facebook {
+    width: 30px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+
+
+
+}
+
+.principal a:hover {
+
+    background-color: #af8e7d;
+    color: rgb(231, 239, 229);
+
+}
+
+.principal {
+    background-color: #af8e7d;
+    text-align: center;
+    float: center;
+}
+
+/**cambiar el tamaño de las imagenes de la tabla llamada productos**/
+.productos {
+    width: 400px;
+    height: 400px;
+}
+
+table {
+    background-color: #dddcd4;
+    color: hsl(39, 76%, 19%);
+
+
+
+    text-align: center;
+    width: 70%;
+    align-content: center;
+    margin: auto;
+
+}
+
+.somos {
+    width: 570px;
+    height: 500px;
+    border-radius: 50px  10px 10px;
+    border: solid rgb(255, 255, 255) 5px;
+    margin: 3%;
+}
+
+video {
+
+    margin: 10%;
+    width: 28%;
+    border-radius: 50px  50px 50 px;
+    border: solid rgb(248, 250, 248) 5px;
+
+}
+
+.inicio {
+    width: 25%;
+    height: 400px;
+    border-radius: 50px 20px 20px;
+    border: solid rgb(248, 250, 248) 5px;
+    margin: 3%;
+}
